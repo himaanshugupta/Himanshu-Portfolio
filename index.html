@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+   <header class="navbar">
+        <div class="navbar-brand">
+            <div class="nav-btn">
+                <a href="./db/Himanshu_Gupta_Resume.pdf" download>📄Resume</a>
+            </div>
+        </div>
+        
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav id="navMenu">
+            <ul>
+                <li><a href="#intro" onclick="closeMenu()">Home</a></li>
+                <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+                <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+                <li><a href="#project" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#education" onclick="closeMenu()">Education</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+            <div class="nav-btn">
+                <a href="#" id="darkModeToggle">🌙 Dark Mode</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <section id="intro">
+        <h1>Himanshu Gupta</h1>
+        <h3>Software Developer | Web Enthusiast | Lifelong Learner</h3>
+        <p>
+            I'm a passionate developer with more then 3 plus years of
+            experience for creating elegant solutions in the least
+            amount of time. Driven by a desire to build things that
+            make a difference, I have experience in full-stack
+            development and am always eager to learn new technologies.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h1 class="section-heading">Skills</h1>
+
+        <article class="card">
+            <ul>
+                <li>
+                    <b>Programming</b> - JavaScript, NodeJs, Mongodb, PostgreSQL, Java, Python, HTML, CSS, Git
+                </li>
+                <li>
+                    <b>Framework</b> - ReactJs, ExpressJs
+                </li>
+                <li>
+                    <b>Aws</b> - Lambda, Codepipeline, Codebuild
+                </li>
+            </ul>
+        </article>
+
+    </section>
+
+    <section id="experience">
+        <h1 class="section-heading">Work Experience</h1>
+
+        <article class="card">
+            <div class="card-header">
+                <h3>Associate Software Engineer</h3>
+                <span class="date">2023 - Present</span>
+            </div>
+            <h4>Accenture</h4>
+            <div class="list">
+                <ul>
+                    <li>
+                        Built and deployed <b>NodeJs, ExpressJs and ReactJs</b> applications, developing <b>REST
+                            APIs</b> and
+                        interactive UIs for internal tools and dashboards used by cross-functional teams.
+                    </li>
+                    <li>
+                        Designed and maintained <b>MongoDB</b> and <b>PostgreSQL</b> database schemas,
+                        optimizing queries, indexes, and relationships to ensure high-performance and
+                        scalable data retrieval for API endpoints.
+                    </li>
+                    <li>
+                        Implemented CI/CDpipelines with <b>AWS (CodePipeline & CodeBuild)</b> to automate deployment
+                        of MERN applications and backend services, reducing release cycles by 40%.
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-header">
+                <h3>Software Engineer</h3>
+                <span class="date">2022 - 2023</span>
+            </div>
+            <h4>SysCloud Technologies</h4>
+            <div class="list">
+                <ul>
+                    <li>
+                        Engineered and optimized database logic to ensure efficient data aggregation,
+                        reducing API latency by 25% and improving dashboard load times.
+                    </li>
+                    <li>
+                        Built a <b>NodeJs and ExpressJs</b> based analytics dashboard integrated with
+                        <b>Azure DevOps API</b>, ExpressJs and NodeJs, extracting and visualizing
+                        performance data for 100+ employees.
+                    </li>
+                    <li>
+                        Automated deployment workflows using <b>AWS Lambda, CodePipeline and CodeBuild</b>,
+                        reducing release cycles from hours to under minutes with zero-downtime deployments.
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-header">
+                <h3>Software Engineer Trainee</h3>
+                <span class="date">2021 - 2022</span>
+            </div>
+            <h4>SysCloud Technologies</h4>
+            <div class="list">
+                <ul>
+                    <li>
+                        Engineered and maintained a scalable Product Design Framework (PDF)
+                        backend that served structured data to the frontend, enabling seamless
+                        UI rendering for 1000+ daily users using <b>PostgreSQL</b>.
+                    </li>
+                    <li>
+                        Built and optimized <b>AWS Lambda</b> functions in NodeJs to handle API requests,
+                        reducing response time by 30% and improving overall system performance.
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </section>
+
+    <section id="project">
+        <h1 class="section-heading">Projects</h1>
+
+        <div class="project-container">
+
+            <div class="project-item">
+                <h3>Project Management Tool</h3>
+                <p>This project demonstrates the visualization of sorting algorithms using a
+                    dynamic swapping strategy. The process is illustrated through animated
+                    moving bars for clear and interactive understanding.
+                </p>
+                <a href="https://himaanshugupta.github.io/Sorting-Visualiser/" target="_blank">View Project →</a>
+            </div>
+
+            <div class="project-item">
+                <h3>Product Design Framework</h3>
+                <p>Engineered PostgreSQL views and functions to serve data to
+                    frontend dashboards, reducing API latency by 25% and supporting 1000+
+                    daily active users (PostgreSQL, REST API, Node.js).
+                </p>
+            </div>
+
+            <div class="project-item">
+                <h3>KRA Dashboard</h3>
+                <p>Built a NodeJs powered performance tracking dashboard using Azure DevOps
+                    API to visualize KPIs for 100+ employees, adopted by team leads for
+                    monthly reviews.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="education">
+        <h1 class="section-heading">Education</h1>
+
+        <article class="card">
+            <div class="card-header">
+                <h3>Bachelor of Technology (IT)</h3>
+                <span class="date">July 18 - June 2022</span>
+            </div>
+            <h4>Chandigarh Engineering College, Mohali</h4>
+            <p>
+                Graduated with a Bachelor's degree in Information Technology.
+                Developed strong skills in software development, databases,
+                and web technologies.
+            </p>
+        </article>
+    </section>
+
+    <footer id="contact">
+        <h1>Get in Touch</h1>
+        <p>I'm currently open to new opportunities. Feel free to reach out!</p>
+        <ul>
+            <li><a href="mailto:guptahimanshu9813@gmail.com">guptahimanshu9813@gmail.com</a></li>
+            <li><a href="https://github.com/himaanshugupta" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/himanshu-gupta111/" target="_blank">Linkedin</a></li>
+            <li><a href="tel:+919813467830">9813467830</a></li>
+            <li><a href="./db/Himanshu_Gupta_Resume.pdf" download>📄Resume</a></li>
+        </ul>
+        <p>© 2025 Himanshu Gupta | To download resume please click on Resume button | <span style="color: red;">Immediate Joiner</span> | Willing to
+            relocate
+        </p>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">×</span>
+            <h1>😊</h1>
+            <h2>👋 Hey I am an <span style="color: red;">Immediate</span> Joiner!</h2>
+            <h2>🚀 Ready to join your team. Let's connect.</h2>
+        </div>
+    </div>
+
+    <script>
+        // Hamburger menu functionality
+        function toggleMenu() {
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.getElementById('navMenu');
+            
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        }
+
+        function closeMenu() {
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.getElementById('navMenu');
+            
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navbar = document.querySelector('.navbar');
+            if (!navbar.contains(event.target)) {
+                closeMenu();
+            }
+        });
+
+        // Popup functionality
+        const popup = document.getElementById('popup');
+        setTimeout(() => popup.classList.add('show'), 2000);
+        
+        function closePopup() {
+            popup.classList.remove('show');
+        }
+
+        // Dark mode toggle
+        const darkModeLink = document.getElementById("darkModeToggle");
+        const body = document.body;
+
+        darkModeLink.addEventListener("click", (e) => {
+            e.preventDefault();
+            body.classList.toggle("dark-mode");
+            darkModeLink.textContent = body.classList.contains("dark-mode")
+                ? "☀️ Light Mode"
+                : "🌙 Dark Mode";
+        });
+    </script>
+</body>
+
+</html>
