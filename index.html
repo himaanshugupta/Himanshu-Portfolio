@@ -13,13 +13,13 @@
 
 <body>
 
-   <header class="navbar">
+    <header class="navbar">
         <div class="navbar-brand">
             <div class="nav-btn">
                 <a href="./db/Himanshu_Gupta_Resume.pdf" download>📄Resume</a>
             </div>
         </div>
-        
+
         <div class="hamburger" onclick="toggleMenu()">
             <span></span>
             <span></span>
@@ -209,7 +209,8 @@
             <li><a href="tel:+919813467830">9813467830</a></li>
             <li><a href="./db/Himanshu_Gupta_Resume.pdf" download>📄Resume</a></li>
         </ul>
-        <p>© 2025 Himanshu Gupta | To download resume please click on Resume button | <span style="color: red;">Immediate Joiner</span> | Willing to
+        <p>© 2025 Himanshu Gupta | To download resume please click on Resume button | <span
+                style="color: red;">Immediate Joiner</span> | Willing to
             relocate
         </p>
     </footer>
@@ -228,7 +229,7 @@
         function toggleMenu() {
             const hamburger = document.querySelector('.hamburger');
             const navMenu = document.getElementById('navMenu');
-            
+
             hamburger.classList.toggle('active');
             navMenu.classList.toggle('active');
         }
@@ -236,13 +237,13 @@
         function closeMenu() {
             const hamburger = document.querySelector('.hamburger');
             const navMenu = document.getElementById('navMenu');
-            
+
             hamburger.classList.remove('active');
             navMenu.classList.remove('active');
         }
 
         // Close menu when clicking outside
-        document.addEventListener('click', function(event) {
+        document.addEventListener('click', function (event) {
             const navbar = document.querySelector('.navbar');
             if (!navbar.contains(event.target)) {
                 closeMenu();
@@ -252,7 +253,7 @@
         // Popup functionality
         const popup = document.getElementById('popup');
         setTimeout(() => popup.classList.add('show'), 2000);
-        
+
         function closePopup() {
             popup.classList.remove('show');
         }
