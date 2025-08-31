@@ -50,6 +50,8 @@ This portfolio is built with modern web technologies to ensure performance and s
 
 I'm always open to connecting with new people. Feel free to reach out!
 
--   **LinkedIn:** `https://www.linkedin.com/in/himanshu-gupta111/`
--   **Email:** `guptahimanshu9813@gmail.com`
--   **GitHub:** `https://github.com/himaanshugupta`
+### **[Linkedin](https://www.linkedin.com/in/himanshu-gupta111/)**
+
+-   **LinkedIn:** `[https://www.linkedin.com/in/himanshu-gupta111/]`
+-   **Email:** `[guptahimanshu9813@gmail.com]`
+-   **GitHub:** `[https://github.com/himaanshugupta]`
