@@ -28,10 +28,10 @@ Welcome to the official repository for my personal portfolio website. This proje
 <img width="1919" alt="Experience Section" src="./db/experience.png" />
 
 ### **Projects Section**
-<img width="1919" alt="Projects Section" src="./db/projects.pngf" />
+<img width="1919" alt="Projects Section" src="./db/projects.png" />
 
 ### **Pop up**
-<img width="1919" alt="Pop up" src="./db/popup.pngf" />
+<img width="1919" alt="Pop up" src="./db/popup.png" />
 
 ### **Education & Contact**
 <img width="1919" alt="Education and Contacts" src="./db/education_footer.png" />
