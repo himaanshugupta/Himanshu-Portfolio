@@ -19,22 +19,22 @@ Welcome to the official repository for my personal portfolio website. This proje
 ## 📸 Screenshots
 
 ### **Landing Page**
-<img width="1919" alt="Portfolio Landing Page" src="./db/landing.png" />
+<img width="1919" alt="Portfolio Landing Page" src="./db/Images/landing.png" />
 
 ### **Dark Mode Toggle**
-<img width="1911" alt="Portfolio in Dark Mode" src="./db/dark_mode.png" />
+<img width="1911" alt="Portfolio in Dark Mode" src="./db/Images/dark_mode.png" />
 
 ### **Experience Section**
-<img width="1919" alt="Experience Section" src="./db/experience.png" />
+<img width="1919" alt="Experience Section" src="./db/Images/experience.png" />
 
 ### **Projects Section**
-<img width="1919" alt="Projects Section" src="./db/projects.png" />
+<img width="1919" alt="Projects Section" src="./db/Images/projects.png" />
 
 ### **Pop up**
-<img width="1919" alt="Pop up" src="./db/popup.png" />
+<img width="1919" alt="Pop up" src="./db/Images/popup.png" />
 
 ### **Education & Contact**
-<img width="1919" alt="Education and Contacts" src="./db/education_footer.png" />
+<img width="1919" alt="Education and Contacts" src="./db/Images/education_footer.png" />
 ---
 
 ## 🛠️ Tech Stack
